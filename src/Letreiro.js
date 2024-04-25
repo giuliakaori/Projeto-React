@@ -21,7 +21,6 @@ function Letreiro() {
       <>
           <h1>Meu Letreiro</h1>
           <p>{text}</p>
-        <br/>
       </>
     );
   }
