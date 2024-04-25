@@ -20,7 +20,7 @@ function Letreiro() {
     return (
       <>
           <h1>Meu Letreiro</h1>
-          <p>{text}</p>
+          <p>{text}<br></p>
       </>
     );
   }
