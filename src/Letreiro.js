@@ -1,7 +1,7 @@
 function Letreiro() {
     return (
       <>
-          <p>Meu Letreiro</p>
+          <h1>Meu Letreiro</h1>
       </>
     );
   }
