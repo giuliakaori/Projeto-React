@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from 'react';
 function Relogio() {
   const [dateTime, setDateTime] = useState(new Date());
 
