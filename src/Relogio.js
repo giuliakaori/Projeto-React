@@ -5,9 +5,9 @@ function Relogio() {
   useEffect(() => {
     const interval = setInterval(() => {
       setDateTime(new Date());
-    }, 1000); // Atualiza a cada segundo
+    }, 1000); 
 
-    return () => clearInterval(interval); // Limpa o intervalo quando o componente é desmontado
+    return () => clearInterval(interval); 
   }, []);
 
   return (

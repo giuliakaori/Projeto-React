@@ -12,7 +12,7 @@ function Letreiro() {
         index = (index + 1) % originalText.length;
         return prevText + nextChar;
       });
-    }, 200); // Adjust typing speed here (milliseconds)
+    }, 200); 
 
     return () => clearInterval(typingInterval);
   }, []);
