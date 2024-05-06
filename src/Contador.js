@@ -48,6 +48,7 @@ function PeopleCounter() {
         <button onClick={incrementTotal}>+</button>
       </div>
       <div>
+        <img src="homem.png">
         Homens: {men}
         <button onClick={decrementMen}>-</button>
         <button onClick={incrementMen}>+</button>
