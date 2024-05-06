@@ -7,4 +7,5 @@ img
 div
 {
   display: flex;
+  position: relative;
 }
