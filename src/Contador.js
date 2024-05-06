@@ -1,24 +1,64 @@
-import React, { useState, useEffect } from 'react';
-function Relogio() {
-  const [dateTime, setDateTime] = useState(new Date());
+import React, { useState } from 'react';
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setDateTime(new Date());
-    }, 1000); 
+function PeopleCounter() {
+  const [total, setTotal] = useState(81);
+  const [men, setMen] = useState(32);
+  const [women, setWomen] = useState(49);
 
-    return () => clearInterval(interval); 
-  }, []);
+  const incrementTotal = () => {
+    setTotal(total + 1);
+  };
+
+  const decrementTotal = () => {
+    if (total > 0) {
+      setTotal(total - 1);
+    }
+  };
+
+  const incrementMen = () => {
+    setMen(men + 1);
+    setTotal(total + 1);
+  };
+
+  const decrementMen = () => {
+    if (men > 0) {
+      setMen(men - 1);
+      setTotal(total - 1);
+    }
+  };
+
+  const incrementWomen = () => {
+    setWomen(women + 1);
+    setTotal(total + 1);
+  };
+
+  const decrementWomen = () => {
+    if (women > 0) {
+      setWomen(women - 1);
+      setTotal(total - 1);
+    }
+  };
 
   return (
-    <>
-        <h1>Meu Relógio</h1>
-        <div>
-        <p>Data: {dateTime.toLocaleDateString()}</p>
-        <p>Hora: {dateTime.toLocaleTimeString()}</p>
+    <div className="people-counter">
+      <div>Total: {total}</div>
+      <div>
+        <button onClick={decrementTotal}>-</button>
+        <span>{total}</span>
+        <button onClick={incrementTotal}>+</button>
       </div>
-    </>
+      <div>
+        Homens: {men}
+        <button onClick={decrementMen}>-</button>
+        <button onClick={incrementMen}>+</button>
+      </div>
+      <div>
+        Mulheres: {women}
+        <button onClick={decrementWomen}>-</button>
+        <button onClick={incrementWomen}>+</button>
+      </div>
+    </div>
   );
 }
 
-export default Relogio;
+export default PeopleCounter;
