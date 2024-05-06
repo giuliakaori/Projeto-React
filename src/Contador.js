@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import homem from './homem.png';
+import mulher from './mulher.png';
 import './style.css';
 
 function PeopleCounter() {
@@ -43,7 +44,7 @@ function PeopleCounter() {
 
   return (
     <div className="people-counter">
-      <div>Total: {total}</div>
+      <div>Total:</div>
       <div>
         <span>{total}</span>
       </div>
@@ -54,6 +55,7 @@ function PeopleCounter() {
         <button onClick={incrementMen}>+</button>
       </div>
       <div>
+        <img src={mulher}/>
         Mulheres: {women}
         <button onClick={decrementWomen}>-</button>
         <button onClick={incrementWomen}>+</button>
