@@ -4,3 +4,7 @@ img
   flex-direction: column;
   width: 65px;
 }
+.homem
+{
+  display: flex;
+}
