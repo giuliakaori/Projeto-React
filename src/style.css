@@ -4,3 +4,8 @@ img
   flex-direction: column;
   width: 65px;
 }
+div
+{
+  display: flex;
+  flex-direction: column;
+}
