@@ -7,4 +7,5 @@ img
 .homem
 {
   display: flex;
+  flex-direction: column;
 }
