@@ -46,19 +46,19 @@ function ContarPessoas() {
     <div className="people-counter">
       <div>Total:</div>
       <div>
-        <span>{total}</span>
+        <span style="border: 2px solid; padding: 5px 45px;">{total}</span>
       </div>
       <div class="homem">
         <img src={homem}/>
         Homens: {men}
-        <button onClick={decrementMen}>-</button>
         <button onClick={incrementMen}>+</button>
+        <button onClick={decrementMen}>-</button>
       </div>
       <div class="mulher">
         <img src={mulher}/>
         Mulheres: {women}
-        <button onClick={decrementWomen}>-</button>
         <button onClick={incrementWomen}>+</button>
+        <button onClick={decrementWomen}>-</button>
       </div>
     </div>
   );
