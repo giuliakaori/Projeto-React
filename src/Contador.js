@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import homem from './homem.png';
 
 function PeopleCounter() {
   const [total, setTotal] = useState(0);
@@ -48,7 +49,7 @@ function PeopleCounter() {
         <button onClick={incrementTotal}>+</button>
       </div>
       <div>
-        <img src="homem.png"/>
+        <img src={homem}/>
         Homens: {men}
         <button onClick={decrementMen}>-</button>
         <button onClick={incrementMen}>+</button>
