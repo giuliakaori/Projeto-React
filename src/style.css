@@ -10,8 +10,4 @@ img
   flex-direction: column;
   align-items: flex-start;
 }
-button
-{
-  display: flex;
-  flex-direction: row;
-}
+
