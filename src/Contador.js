@@ -3,7 +3,7 @@ import homem from './homem.png';
 import mulher from './mulher.png';
 import './style.css';
 
-function PeopleCounter() {
+function ContarPessoas() {
   const [total, setTotal] = useState(0);
   const [men, setMen] = useState(0);
   const [women, setWomen] = useState(0);
@@ -64,4 +64,4 @@ function PeopleCounter() {
   );
 }
 
-export default PeopleCounter;
+export default ContarPessoas;
