@@ -45,9 +45,7 @@ function PeopleCounter() {
     <div className="people-counter">
       <div>Total: {total}</div>
       <div>
-        <button onClick={decrementTotal}>-</button>
         <span>{total}</span>
-        <button onClick={incrementTotal}>+</button>
       </div>
       <div>
         <img src={homem}/>
