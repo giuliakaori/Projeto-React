@@ -1,9 +1,6 @@
 img
 {
-  width: 65px;
-}
-div
-{
   display: flex;
-  position: relative;
+  flex-direction: column;
+  width: 65px;
 }
