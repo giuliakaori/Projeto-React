@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import homem from './homem.png';
+import './style.css';
 
 function PeopleCounter() {
   const [total, setTotal] = useState(0);
