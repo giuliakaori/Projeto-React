@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
 function PeopleCounter() {
-  const [total, setTotal] = useState(81);
-  const [men, setMen] = useState(32);
-  const [women, setWomen] = useState(49);
+  const [total, setTotal] = useState(0);
+  const [men, setMen] = useState(0);
+  const [women, setWomen] = useState(0);
 
   const incrementTotal = () => {
     setTotal(total + 1);
