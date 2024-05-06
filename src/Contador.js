@@ -46,7 +46,7 @@ function ContarPessoas() {
     <div className="people-counter">
       <div>Total:</div>
       <div>
-        <span style="border: 2px solid; padding: 5px 45px;">{total}</span>
+        <span>{total}</span>
       </div>
       <div class="homem">
         <img src={homem}/>
