@@ -11,6 +11,7 @@ export default function MinhasRotas() {
             <Route path="/" element={<Home />} />
             <Route path="/Atv01" element={<Atv01 />} />
             <Route path="/Atv02" element={<Atv02 />} />
+            <Route path="/Atv03" element={<Atv03 />} />
         </Routes>
         </BrowserRouter>
     );
