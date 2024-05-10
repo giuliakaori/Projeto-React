@@ -1,7 +1,6 @@
 import Componente from "./Componente";
 import Profile from './Gallery';
 import Scientist from './Scientist';
-import User from './Componente';
 import Avatar from './Avatar';
 import Avatar1 from './Avatar1';
 import NameDate from './NameDate';
@@ -16,7 +15,6 @@ export default function Atv03() {
         <>
             <h1>Atividade 03</h1>
             <Componente/>
-            <User/>
             <Profile/>
             <Scientist/>
             <Avatar/>
