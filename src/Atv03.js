@@ -4,7 +4,6 @@ import Scientist from './Scientist';
 import Avatar from './Avatar';
 import Avatar1 from './Avatar1';
 import NameDate from './NameDate';
-import Person from './Person';
 import Person1 from './Person1';
 import Avatar2 from './Avatar2';
 import Avatar3 from './Avatar3';
@@ -35,7 +34,6 @@ export default function Atv03() {
             <Avatar/>
             <Avatar1/>
             <NameDate/>
-            <Person/>
             <Person1/>
             <Avatar2/>
             <Avatar3/>
