@@ -8,6 +8,8 @@ import Person from './Person';
 import Person1 from './Person1';
 import Avatar2 from './Avatar2';
 import Avatar3 from './Avatar3';
+import Children from './Children';
+
 import { Link } from "react-router-dom";
 
 export default function Atv03() {
@@ -24,6 +26,7 @@ export default function Atv03() {
             <Person1/>
             <Avatar2/>
             <Avatar3/>
+            <Children/>
             <br />
             <Link to="/">retornar a página inicial</Link>
         </>
