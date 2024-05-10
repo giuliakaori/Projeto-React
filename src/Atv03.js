@@ -16,7 +16,7 @@ import Item4 from './Item4';
 import Item5 from './Item5';
 import Item6 from './Item6';
 import People from './People';
-import Person from './Person';
+import Persons from './Persons';
 import Recipe from './Recipe';
 import Cup from './Cup';
 import Teacup1 from './Teacup1';
@@ -46,7 +46,7 @@ export default function Atv03() {
             <Item5/>
             <Item6/>
             <People/>
-            <Person/>
+            <Persons/>
             <Recipe/>
             <Cup/>
             <Teacup1/>
