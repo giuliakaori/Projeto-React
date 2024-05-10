@@ -1,14 +1,20 @@
 import React from "react";
+import { people } from "./Data";
+import getImageUrl from "./Utils1";
 
-export default function TodoList() {
-    return (
-        <ul style={{
-            backgroundColor: 'black',
-            color: 'pink'
-        }}>
-            <li>Improve the videophone</li>
-            <li>Prepare aeronautics lectures</li>
-            <li>Work on the alcohol-fuelled engine</li>
-        </ul>
+export default function List() {
+    const chemists = people.filter(person =>
+        person.profession === 'chemist'
     );
+    const listItems = chemists.map(person =>
+        <li>
+            <img src={getImageUrl(person)} alt={person.name}/>
+            <p>
+                <b>{person.name}:</b>
+                {' ' + person.profession + ' '}
+                known for {person.accomplishment}
+            </p>
+        </li>
+    );
+    return <ul>{listItems}</ul>
 }
