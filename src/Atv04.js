@@ -1,3 +1,9 @@
+import Toolbar from './Toolbar';
+import Gallery1 from './Gallery1';
+import Counter from './Counter';
+import Form from './Form';
+import MovingDot from './MovingDot';
+import Form2 from './Form2';
 import { Link } from "react-router-dom";
 
 export default function Atv04() {
