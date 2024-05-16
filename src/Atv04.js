@@ -11,6 +11,7 @@ import ShapeEditor from './ShapeEditor';
 import CounterList from './CounterList';
 import List3 from './List3';
 import List4 from './List4';
+import BucketList from './BucketList';
 import { Link } from "react-router-dom";
 
 export default function Atv04() {
