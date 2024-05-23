@@ -8,7 +8,6 @@ import Person from './Person';
 import Person1 from './Person1';
 import Avatar2 from './Avatar2';
 import Avatar3 from './Avatar3';
-import Avatar4 from './Avatar4';
 import Children from './Children';
 import Item from './Item';
 import Item1 from './Item1';
@@ -40,7 +39,6 @@ export default function Atv03() {
             <Person1/>
             <Avatar2/>
             <Avatar3/>
-            <Avatar4/>
             <Children/>
             <Item/>
             <Item1/>
