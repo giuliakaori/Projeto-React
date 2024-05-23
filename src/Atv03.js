@@ -8,7 +8,7 @@ import Person from './Person';
 import Person1 from './Person1';
 import Avatar2 from './Avatar2';
 import Avatar3 from './Avatar3';
-import Avatar3 from './Avatar4';
+import Avatar4 from './Avatar4';
 import Children from './Children';
 import Item from './Item';
 import Item1 from './Item1';
